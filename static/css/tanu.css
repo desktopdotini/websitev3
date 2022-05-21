@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+	--color-primary: #aaf0d1;
+	--color-on-primary: #66907d;
+	--color-primary-contaner: #36c381;
+	--color-on-primary-contaner: #66907d;
+
+	--color-secondary: #aaf0d1;
+	--color-on-secondary: #66907d;
+	--color-secondary-contaner: #36c381;
+	--color-on-secondary-contaner: #66907d;
+
+	--color-tertiary: #aaf0d1;
+	--color-on-tertiary: #66907d;
+	--color-tertiary-contaner: #66907d;
+	--color-on-tertiary-contaner: #aaf0d1;
+
+	--color-error: #aaf0d1;
+	--color-on-error: #66907d;
+	--color-error-contaner: #36c381;
+	--color-on-error-contaner: #66907d;
+
+	--color-background: #446054;
+	--color-on-background: #bcecd5;
+	--color-surface: #446054;
+	--color-on-surface: #bcecd5;
+	--color-surface-contaner: #557869;
+	--color-on-surface-contaner: #bcecd5;
+
+	--color-outline: #66907d;
+	--color-surface-variant: #557869;
+	--color-on-surface-variant: #66907d;
+
+	--value-padding: 2rem;
+	--value-margin: 1rem 1rem;
+	--value-radius: 0.75rem;
+	--value-border: 0.1rem;
+	
+	--value-font-primary: 'Poppins', sans-serif;
+	--value-font-secondary: 'Arial', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: var(--value-font-primary);
+	background-color: var(--color-background);
+	color: var(--color-on-background);
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-primary);
+}
+
+.container {
+	width: 100%;
+	max-width: 750px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+main {
+	margin: var(--value-margin);
+}
+
+/* @media screen and (min-width: 650px) {
+    :root {
+        --value-margin: 1rem 2.5rem;
+        --value-radius: 2rem;
+    }
+
+    main {
+        margin: 1rem 4rem;
+    }
+} */
+
+@media screen and (min-width: 900px) {
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		min-height: 100vh;
+	}
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: var(--color-background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	width: 7.5rem;
+	border-radius: var(--value-radius);
+	background: var(--color-on-background);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: var(--color-primary);
+}

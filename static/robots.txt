@@ -1,0 +1,8 @@
+#############
+# Hello Bot #
+#############
+
+User-agent: *
+allow: /*
+Disallow: /admin/*
+Disallow: /files/*
