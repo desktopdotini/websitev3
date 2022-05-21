@@ -1,7 +1,9 @@
-import adapter from '@sveltejs/adapter-auto'
+import adapter from '@sveltejs/adapter-static'
 
-export default {
+const config = {
 	kit: {
-		adapter: adapter()
+  		adapter: adapter(),
 	}
-}
+};
+  
+  export default config;
