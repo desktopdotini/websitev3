@@ -2,18 +2,20 @@
 	export const prerender = true
 </script>
 
-<title>sus</title>
+<title>nostalgia</title>
 
 <div class="container">
 	<div class="center">
 		<div class="error">
 			<div class="dialog">
-				<h1>among us</h1>
-				<p>
-					<img src="https://c.tenor.com/-HQspXPY5PwAAAAC/yellow-sus.gif" alt="sus" width="512px" height="512px"/>
-				</p>
+				<h1>nostalgia</h1>
+				<br/>
+				<audio controls id="nostalgia">
+					<source src="./mp3/nostalgia_monv.mp3" type="audio/mpeg">
+				  Your browser does not support the audio element.
+				</audio> 
 			</div>
-			<a href="/">no one cares go back home</a>
+			<a href="/">Go back home</a>
 		</div>
 	</div>
 </div>
@@ -50,13 +52,6 @@
 		text-overflow: ellipsis;
 		overflow: hidden;
 		white-space: pre;
-	}
-
-	.error p {
-		font-size: 1rem;
-		margin: 0;
-		margin-top: 0.25rem;
-		overflow-x: auto;
 	}
 
 	.error a {

@@ -15,6 +15,8 @@
 	export let error
 </script>
 
+<title>Oops! Error {status}</title>
+
 <div class="container">
 	<div class="center">
 		<div class="error">
